@@ -41,15 +41,22 @@ h4 {
   
 }
 
+.wrapper {
+  display:flex;
+  height: 80vh;
+  width: 100%;
+  justify-content: center;
+}
+
 .container {
   display: flex;
-  margin: auto;
-  width: 800px;
+  margin: auto 0;
+  width: 600px;
   height: 80vh;
-  justify-content: center;
-  align-self: center;
   transform: translateY(10%);
+  overflow-x: hidden;
 }
+
 
 .grid-container{
   display: grid;
@@ -193,6 +200,19 @@ h4 {
   color: #0a8a57;
   background-color: #0a8a57;
   z-index: 1;
+}
+
+.big-circle-white {
+  grid-row: 2/4;
+  grid-column: 5/7;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  z-index: 1;
+  border-radius: 50%;
+  transform: translateX(50%);
+  background-color: #ebe7db;
+  color: #0a8a57;
 }
 
 .third-row-white {
