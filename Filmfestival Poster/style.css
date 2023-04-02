@@ -16,12 +16,13 @@
 .grid-container {
   display: flex;
   margin: auto 0;
-  width: 600px;
+  width: 800px;
   height: 80vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   background-color: yellow;
+  padding: 20px;
 }
 
 .sponsor-one {
